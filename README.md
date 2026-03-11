@@ -21,16 +21,15 @@ Surveys were distributed in English, Italian, and Spanish to capture diverse use
 
 ## Files
 
-| File               |                 Description 
-| `Cleaned_dfENG.py` | Data cleaning script — English survey |
-| `Cleaned_dfIT.py` | Data cleaning script — Italian survey |
-| `Cleaned_dfESP.py` | Data cleaning script — Spanish survey |
-| `Cleaned_dfCONCAT.py` | Merges all 3 datasets into one unified CSV |
-| `utils.py` | Shared utility functions (missing report, plots) |
-| `kindbudget_ENG_clean.csv` | Cleaned English dataset |
-| `kindbudget_ITA_clean.csv` | Cleaned Italian dataset |
-| `kindbudget_ESP_clean.csv` | Cleaned Spanish dataset |
-| `kindbudget_ALL_clean.csv` | Final unified dataset (all 3 languages) |
+| `Cleaned_dfENG.py` : Data cleaning script — English survey |
+| `Cleaned_dfIT.py` : Data cleaning script — Italian survey |
+| `Cleaned_dfESP.py` : Data cleaning script — Spanish survey |
+| `Cleaned_dfCONCAT.py` : Merges all 3 datasets into one unified CSV |
+| `utils.py` : Shared utility functions (missing report, plots) |
+| `kindbudget_ENG_clean.csv` : Cleaned English dataset |
+| `kindbudget_ITA_clean.csv` : Cleaned Italian dataset |
+| `kindbudget_ESP_clean.csv` : Cleaned Spanish dataset |
+| `kindbudget_ALL_clean.csv` : Final unified dataset (all 3 languages) |
 
 ## Requirements
 
@@ -54,13 +53,13 @@ All cleaning scripts import from `utils.py` — place it in the same directory b
 
 ## Utility Functions (`utils.py`)
 
-| Function               |                           Description |
-| `missing_report(df)` | Returns a DataFrame with NaN count and percentage per column |
-| `plot(col)` | Interactive bar chart for a single categorical column |
-| `plot_menu(df, cat_col)` | Menu to select and visualise any categorical column |
-| `plot_compare(df, group_col, target_col)` | Grouped bar chart comparing a variable across surveys |
-| `plot_compare_pct(df, group_col, target_col)` | Same as above but with percentage values |
-| `plot_main_menu(df, cat_cols, compare_cols)` | Main interactive menu — simple plots or cross-survey comparisons |
+
+| `missing_report(df)` : Returns a DataFrame with NaN count and percentage per column |
+| `plot(col)` : Interactive bar chart for a single categorical column |
+| `plot_menu(df, cat_col)` : Menu to select and visualise any categorical column |
+| `plot_compare(df, group_col, target_col)` : Grouped bar chart comparing a variable across surveys |
+| `plot_compare_pct(df, group_col, target_col)` : Same as above but with percentage values |
+| `plot_main_menu(df, cat_cols, compare_cols)` : Main interactive menu — simple plots or cross-survey comparisons |
 
 > **Note:** `utils.py` is required to run all cleaning scripts. Make sure it is in the same folder.
 
