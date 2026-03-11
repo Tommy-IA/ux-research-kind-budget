@@ -1,8 +1,6 @@
-# ux-research-kind-budget
-UX Research data cleaning — multilingual survey analysis (ENG, ITA, ESP)
 # Kind Budget — UX Research Data Cleaning
 
-Multilingual survey data cleaning and analysis project.
+Multilingual (ENG, ITA, ESP) survey data cleaning and analysis project.
 Raw survey responses collected across 3 languages, cleaned and unified into a single dataset.
 
 ## Project Overview
